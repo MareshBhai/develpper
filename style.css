@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Protest+Revolution&display=swap')
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap')
+body{
+    margin: 0;
+    padding: 0;
+}
+.containers{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #348F50,#56B4D3)
+    
+}
+.mk{
+background-color: rgba(255, 255, 255, 0.904);
+padding: 10px;
+border: 70px;
+box-shadow: 0 0 10px rgba( 0, 0, 0, 0.1);
+}
+.mk h2{
+    text-align-last: center;
+    color: blue;
+    .protest-revolution-regular {
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      }
+      
+}
+.group1{
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin: 8px;
+}
+input, testarea {
+    width: 100%;
+     border: 1px solid #333;
+     border-radius: 5px;
+      padding: 5px;
+      box-sizing: border-box;
+}
+button{
+    background-color: rgba(0, 0, 255, 0.705);
+    padding: 10px;
+    margin: 20px 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background: #348F50;
+    transition-duration: 0.3s;
+}
+
+
